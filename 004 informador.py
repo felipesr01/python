@@ -1,0 +1,7 @@
+x = input('Digite algo: ')
+print(f'Maiusculo? {x.isupper()}')
+print(f'Minusculo? {x.islower()}')
+print(f'Digito? {x.isdigit()}')
+print(f'Numerico? {x.isnumeric()}')
+print(f'Titulo? {x.istitle()}')
+print(f'Letra? {x.isalpha()}')
